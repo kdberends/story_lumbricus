@@ -102,7 +102,7 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
       Dit verhaal is onstaan uit samenwerking tussen:
       <div class='logos_footer'>
       <b-img :src="require('../assets/logo_aa_maas.jpg')" fluid alt="Responsive image"> </b-img>
-      <b-img :src="require('../assets/logo_deltares.jpg')" fluid alt="Responsive image"> </b-img>
+      <b-img :src="require('../assets/logo_deltares.png')" fluid alt="Responsive image"> </b-img>
     </div>
     </div>
   </div>

@@ -40,10 +40,6 @@ img {
   max-width: 150px;
 }
 
-@font-face{
-    font-family: "Sansa Pro";
-    src: url(/fonts/Sansa/SansaPro-Normal.otf)
-}
 
 #Main {
   font-family: Helvetica, Arial, sans-serif;
