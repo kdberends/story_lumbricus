@@ -1,4 +1,4 @@
-import * as d3 from '../lib/d3'
+import * as d3 from 'd3'
 import * as math from 'mathjs'
 
 function surro(manning, discharge, waterlevel) {

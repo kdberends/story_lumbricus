@@ -1,6 +1,5 @@
 module.exports = {
    runtimeCompiler: true,
-  "transpileDependencies": [
-    "vuetify"
+   publicPath: '/story_lumbricus/'
   ]
 }

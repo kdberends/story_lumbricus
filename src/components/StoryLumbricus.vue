@@ -111,7 +111,7 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
   import Chart from '../components/Chart';
   import Chart2 from '../components/Chart2';
   import Chart3 from '../components/Chart3';
-  import * as d3 from '../lib/d3';
+  import * as d3 from 'd3';
   
 
   export default {

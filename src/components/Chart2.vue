@@ -16,7 +16,7 @@
 
 <script>
 import {protoTimeSeriesChart} from  '../charts/protoTimeSeriesChart'
-import * as d3 from '../lib/d3';
+import * as d3 from 'd3';
 
 
 var LocalChart2 = {};
