@@ -100,8 +100,10 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
     </div>
     <div class="row d-flex justify-content-center footer align-items-center">
       Dit verhaal is onstaan uit samenwerking tussen:
-      <b-img :src="require('../assets/logo_aa_maas.jpg')" fluid alt="Respondsive image"> </b-img>
-      <b-img :src="require('../assets/logo_deltares.jpg')" fluid alt="Respondsive image"> </b-img>
+      <div class='logos_footer'>
+      <b-img :src="require('../assets/logo_aa_maas.jpg')" fluid alt="Responsive image"> </b-img>
+      <b-img :src="require('../assets/logo_deltares.jpg')" fluid alt="Responsive image"> </b-img>
+    </div>
     </div>
   </div>
 
@@ -111,9 +113,7 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
   import Chart from '../components/Chart';
   import Chart2 from '../components/Chart2';
   import Chart3 from '../components/Chart3';
-  import * as d3 from 'd3';
   
-
   export default {
     name: 'StoryLumbricus',
     components: {
@@ -131,9 +131,8 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
       this.fetchData();
     },
     methods: {
-      async fetchData() {
-        let data = await d3.json("./streamdata.json");
-        this.loadData = data;
+      fetchData() {
+        console.log('dummy method')
       }
     }
     
@@ -143,7 +142,9 @@ D-Hydro</b-link> berekend wat de stromingsweerstand van de beek is.
 </script>
 
 <style>
-
+.logos_footer {
+  width: 200px;
+}
 
 .header {
   background-color: red;

@@ -1,4 +1,3 @@
 module.exports = {
-   runtimeCompiler: true,
-   publicPath: '/story_lumbricus/'
+   runtimeCompiler: true
 }
